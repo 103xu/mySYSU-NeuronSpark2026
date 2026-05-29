@@ -5,12 +5,14 @@ __pycache__/
 # 虚拟环境
 venv/
 .env/
+.venv/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# VSCode配置
+# IDE配置
 .vscode/
+.idea/
 
 # 日志
 *.log
@@ -19,6 +21,13 @@ venv/
 *.pth
 *.pt
 *.ckpt
+*.cbm
+*.pkl
+*.npy
+checkpoints/
+models/
+outputs/
+catboost_info/
 
 # 系统文件
 .DS_Store
@@ -32,10 +41,14 @@ raw_data/
 processed_data/
 
 *.csv
-*.json
+data/**/*.json
+*.jsonl
 *.parquet
 *.h5
 *.npz
+
+# 生成图片
+*.png
 
 # 压缩数据
 *.zip
