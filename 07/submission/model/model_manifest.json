@@ -1,0 +1,19 @@
+{
+  "model_architecture": "DexPolicy",
+  "framework": "pytorch",
+  "pytorch_version": "2.12.0",
+  "parameter_count": "1.84M",
+  "training_dataset": "NS-2026-07 demonstrations/weak_train_rollouts.jsonl (min_score01=0.1 filtered)",
+  "training_epochs": 60,
+  "best_val_loss": 0.1164,
+  "checkpoint_format": "state_dict",
+  "vram_requirement_mb": "~300 (FP16 batch=64)",
+  "inference_time_ms": "~3 (single) / ~50 (batch=64)",
+  "files": [
+    {
+      "path": "model/best_model.pt",
+      "size_bytes": 7391349,
+      "sha256": "30a5221c1535f0f20f25073b65b07c9127bc6afebaf729a1f5497e1df7da95a5"
+    }
+  ]
+}

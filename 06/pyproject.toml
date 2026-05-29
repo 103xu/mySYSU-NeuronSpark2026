@@ -1,0 +1,8 @@
+[project]
+name = "06"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.4.6",
+    "scikit-learn>=1.8.0",
+]

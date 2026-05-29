@@ -1,0 +1,10 @@
+numpy
+pandas
+tqdm
+rank_bm25
+scikit-learn
+sentence-transformers
+transformers
+torch
+jieba
+accelerate
